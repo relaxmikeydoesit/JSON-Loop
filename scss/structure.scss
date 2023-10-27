@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    padding: 0px;
+    color: #000000;
+    background-color: #f08080;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  
+  #app {
+   margin: 50px;
+   display: flex;
+   align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+  }
+  h4 {
+    padding: 10px;
+    background-color: #fff;
+  }
+
+  .game-holder {
+    width: 150px;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #000000;
+
+  }
+  .brief-rating {
+    font-size: 12px;
+  }
+  .brief-des {
+    margin-bottom: 10px;
+    font-style: italic;
+  }
